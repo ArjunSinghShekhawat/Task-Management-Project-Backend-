@@ -1,3 +1,66 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+
+# Ignore Maven or Gradle local build directories
+/target/
+/build/
+
+# Ignore IntelliJ IDEA project files
+/.idea/
+/*.iml
+
+# Ignore Eclipse project files
+/.classpath
+/.project
+/.settings/
+
+# Ignore VS Code project files
+/.vscode/
+
+# Ignore temporary system files
+*.class
+*.log
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+/logs/
+/*.log
+/*.out
+/*.tmp
+
+# Ignore configuration files
+application.properties
+application.yml
+application-local.properties
+application-dev.properties
+
+# Ignore Node.js dependencies (if frontend is present in the same repository)
+/node_modules/
+
+# Ignore sensitive files
+/secrets/
+.env
+
+# Ignore Maven Wrapper binaries
+/.mvn/wrapper/maven-wrapper.jar
+
+# Ignore generated files
+*.war
+*.jar
+*.ear
+
+# Ignore test results
+/test-output/
+*.ser
+
+# Ignore build-related files
+/mvnw
+/mvnw.cmd
